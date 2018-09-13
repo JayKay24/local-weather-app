@@ -1,4 +1,4 @@
-import { Observable } from 'rxjs'
+import { Observable, of } from 'rxjs'
 import { ICurrentWeather } from '../interfaces'
 import { IWeatherService } from './weather.service'
 
