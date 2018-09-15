@@ -5,10 +5,11 @@ import { AppComponent } from './app.component'
 import { CurrentWeatherComponent } from './current-weather/current-weather.component'
 import { WeatherService } from './weather/weather.service'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [AppComponent, CurrentWeatherComponent],
-  imports: [BrowserModule, HttpClientModule, BrowserAnimationsModule],
+  imports: [BrowserModule, HttpClientModule, BrowserAnimationsModule, FlexLayoutModule],
   providers: [WeatherService],
   bootstrap: [AppComponent],
 })
